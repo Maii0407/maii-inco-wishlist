@@ -1,0 +1,19 @@
+/* Keep link text readable on narrow screens. */
+#wishlist-items a {
+  overflow-wrap: anywhere;
+}
+
+.gift-box-output {
+  font-size: clamp(6px, 1vw, 9px);
+  line-height: 1;
+}
+
+.gift-box-body {
+  color: #166534;
+}
+
+.gift-box-ribbon {
+  color: #be123c;
+}
+
+
